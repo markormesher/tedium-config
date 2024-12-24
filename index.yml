@@ -5,5 +5,8 @@ chores:
     directory: "generate-taskfile"
 
   - url: "https://github.com/markormesher/tedium-chores"
+    directory: "generate-ci-config"
+
+  - url: "https://github.com/markormesher/tedium-chores"
     directory: "tag-new-releases"
     exposePlatformToken: true
