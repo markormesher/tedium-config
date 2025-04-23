@@ -8,6 +8,9 @@ chores:
     directory: "generate-ci-config"
 
   - url: "https://github.com/markormesher/tedium-chores"
+    directory: "manage-go-tools"
+
+  - url: "https://github.com/markormesher/tedium-chores"
     directory: "tag-new-releases"
     exposePlatformToken: true
 
