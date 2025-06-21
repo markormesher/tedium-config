@@ -2,10 +2,7 @@ extends: []
 
 chores:
   - url: "https://github.com/markormesher/tedium-chores"
-    directory: "generate-taskfile"
-
-  - url: "https://github.com/markormesher/tedium-chores"
-    directory: "generate-ci-config"
+    directory: "generate-tasks-and-ci"
 
   - url: "https://github.com/markormesher/tedium-chores"
     directory: "manage-go-tools"
