@@ -14,3 +14,6 @@ chores:
   - url: "https://github.com/markormesher/tedium-chores"
     directory: "apply-branch-protection"
     exposePlatformToken: true
+
+  - url: "https://github.com/markormesher/tedium-chores"
+    directory: "rewrite-debian-versions"
