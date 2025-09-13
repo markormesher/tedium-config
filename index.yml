@@ -1,19 +1,26 @@
 extends: []
 
 chores:
+  # toolchain management
   - url: "https://github.com/markormesher/tedium-chores"
     directory: "generate-tasks-and-ci"
 
   - url: "https://github.com/markormesher/tedium-chores"
     directory: "manage-go-tools"
 
-  - url: "https://github.com/markormesher/tedium-chores"
-    directory: "tag-new-releases"
-    exposePlatformToken: true
-
+  # release management
   - url: "https://github.com/markormesher/tedium-chores"
     directory: "apply-branch-protection"
     exposePlatformToken: true
 
+  - url: "https://github.com/markormesher/tedium-chores"
+    directory: "auto-merge-prs"
+    exposePlatformToken: true
+
+  - url: "https://github.com/markormesher/tedium-chores"
+    directory: "tag-new-releases"
+    exposePlatformToken: true
+
+  # code changes
   - url: "https://github.com/markormesher/tedium-chores"
     directory: "rewrite-debian-versions"
