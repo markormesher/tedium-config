@@ -24,3 +24,6 @@ chores:
   # code changes
   - url: "https://github.com/markormesher/tedium-chores"
     directory: "rewrite-debian-versions"
+
+  - url: "https://github.com/markormesher/tedium-chores"
+    directory: "update-image-labels"
