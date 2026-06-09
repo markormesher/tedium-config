@@ -8,9 +8,6 @@ chores:
   - url: "https://github.com/markormesher/tedium-chores"
     directory: "manage-go-tools"
 
-  - url: "https://github.com/markormesher/tedium-chores"
-    directory: "remove-dead-circleci-links"
-
   # release management
   - url: "https://github.com/markormesher/tedium-chores"
     directory: "apply-branch-protection"
